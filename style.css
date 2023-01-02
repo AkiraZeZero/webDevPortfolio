@@ -50,6 +50,19 @@ html {
     border-color: aliceblue;
 }
 
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acnh {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+
 .center {
     text-align: center;
 }
