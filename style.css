@@ -1,0 +1,55 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
+    /* text-align: center; */
+}
+
+.bg {
+    background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-844297.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Kiara {
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 89.9%;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listedSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 47%;
+    border-radius: 3em;
+    border-style: double;
+    border-color: aliceblue;
+}
+
+.center {
+    text-align: center;
+}
