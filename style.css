@@ -26,12 +26,15 @@ html {
 }
 
 .aboutMe {
+    background-color: azure;
+    border-radius: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 89.9%;
+    padding: 2%;
+    width: 47%;
 }
 
 .skills {
@@ -46,21 +49,46 @@ html {
     justify-content: space-evenly;
     width: 47%;
     border-radius: 3em;
-    border-style: double;
-    border-color: aliceblue;
+    background-color: azure;
+    padding: 2%;
 }
 
 .projects {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.5%;
+    /* background-color: yellow; */
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;;
 }
 
 .acnh {
+    background-color: azure;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 30%;
     text-align: center;
+    border-radius: 3em;
+    padding: 1.5%;
+}
+
+.gg {
+    background-color: azure;
+    border-radius: 3em;
+    width: 30%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.weather {
+    background-color: azure;
+    border-radius: 3em;
+    padding: 1.5%;
+    text-align: center;
+    width: 30%;
 }
 
 .center {
